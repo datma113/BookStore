@@ -23,8 +23,10 @@ for (let i = 0; i < chooseOption.length; i++) {
         chooseOption[i].addEventListener("click", () =>{
             for(let k = 0; k < chooseOption.length ; k++){
                 chooseOption[k].style.border = "none";
+                chooseOption[k].style.color = "black";
             }
             chooseOption[i].style.borderBottom = 2  + "px "+"solid "+"black";
+            chooseOption[i].style.color = "red";
         },false);
     }()); // immediate invocation
 }

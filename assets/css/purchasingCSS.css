@@ -117,6 +117,7 @@
 }
 .default-opt{
     border-bottom: 2px solid black;
+    color: red;
 }
 .main-purchasing-right-opt:hover{
     cursor: pointer;
